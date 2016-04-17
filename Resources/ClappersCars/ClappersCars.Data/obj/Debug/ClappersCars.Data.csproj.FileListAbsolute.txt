@@ -12,3 +12,17 @@ C:\_repo\hannah-seligson-self-work\ClappersCars\ClappersCars.Data\bin\Debug\Enti
 C:\_repo\hannah-seligson-self-work\ClappersCars\ClappersCars.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\_repo\hannah-seligson-self-work\ClappersCars\ClappersCars.Data\obj\Debug\ClappersCars.Data.dll
 C:\_repo\hannah-seligson-self-work\ClappersCars\ClappersCars.Data\obj\Debug\ClappersCars.Data.pdb
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\bin\Debug\ClappersCars.Data.dll.config
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\bin\Debug\ClappersCars.Data.dll
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\bin\Debug\ClappersCars.Data.pdb
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\bin\Debug\ClappersCars.Models.dll
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\bin\Debug\EntityFramework.dll
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\bin\Debug\ClappersCars.Models.pdb
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\bin\Debug\EntityFramework.xml
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\obj\Debug\ClappersCars.Data.csprojResolveAssemblyReference.cache
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\obj\Debug\ClappersCars.Migrations.initDB.resources
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\obj\Debug\ClappersCars.Data.csproj.GenerateResource.Cache
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\obj\Debug\ClappersCars.Data.dll
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Data\obj\Debug\ClappersCars.Data.pdb
