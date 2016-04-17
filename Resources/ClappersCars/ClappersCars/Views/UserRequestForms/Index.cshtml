@@ -47,47 +47,47 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Vehicle.Make)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Phone)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.BestTimeToCall)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.PreferredContactMethod)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TimeframeToPurchaseStart)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TimeframeToPurchaseEnd)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AdditionalInformation)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.LastContactDate)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.StatusOfRequest)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.UserRequestFormID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.UserRequestFormID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.UserRequestFormID })
-        </td>
-    </tr>
-}
-
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vehicle.Make)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BestTimeToCall)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PreferredContactMethod)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeframeToPurchaseStart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TimeframeToPurchaseEnd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdditionalInformation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastContactDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusOfRequest)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.UserRequestFormID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.UserRequestFormID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.UserRequestFormID })
+            </td>
+        </tr>
+    }
 </table>
