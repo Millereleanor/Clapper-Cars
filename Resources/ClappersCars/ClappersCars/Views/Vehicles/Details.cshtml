@@ -79,7 +79,14 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.IsAvailable)
+            @if (Model.IsAvailable)
+            {
+                <span class="glyphicon glyphicon-check" style="color: green"></span>
+            }
+            else
+            {
+                <span class="glyphicon glyphicon-remove" style="color: red"></span>
+            }
         </dd>
 
         <dt>
@@ -87,7 +94,14 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Condition)
+            @if (Model.Condition)
+            {
+                <span>New</span>
+            }
+            else
+            {
+                <span>Used</span>
+            }
         </dd>
 
     </dl>
