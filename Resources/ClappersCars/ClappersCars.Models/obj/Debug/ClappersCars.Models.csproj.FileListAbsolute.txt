@@ -3,3 +3,8 @@ C:\_repo\hannah-seligson-self-work\ClappersCars\ClappersCars.Models\bin\Debug\Cl
 C:\_repo\hannah-seligson-self-work\ClappersCars\ClappersCars.Models\obj\Debug\ClappersCars.Models.csprojResolveAssemblyReference.cache
 C:\_repo\hannah-seligson-self-work\ClappersCars\ClappersCars.Models\obj\Debug\ClappersCars.Models.dll
 C:\_repo\hannah-seligson-self-work\ClappersCars\ClappersCars.Models\obj\Debug\ClappersCars.Models.pdb
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Models\bin\Debug\ClappersCars.Models.dll
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Models\bin\Debug\ClappersCars.Models.pdb
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Models\obj\Debug\ClappersCars.Models.csprojResolveAssemblyReference.cache
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Models\obj\Debug\ClappersCars.Models.dll
+C:\_repo\theclapperclan\Resources\ClappersCars\ClappersCars.Models\obj\Debug\ClappersCars.Models.pdb

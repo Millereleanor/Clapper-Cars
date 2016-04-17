@@ -271,7 +271,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Vehicles\Create.cshtml" />
     <Content Include="Views\Vehicles\Delete.cshtml" />
-    <Content Include="Views\Vehicles\Details.cshtml" />
+    <Content Include="Views\Shared\Details.cshtml" />
     <Content Include="Views\Vehicles\Index.cshtml" />
     <Content Include="Views\UserRequestForms\Create.cshtml" />
     <Content Include="Views\UserRequestForms\Delete.cshtml" />

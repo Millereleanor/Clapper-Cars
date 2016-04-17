@@ -77,11 +77,13 @@
             @Html.DisplayFor(modelItem => item.Condition)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.VehicleID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.VehicleID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.VehicleID })
+      
+            @Html.ActionLink("Edit", "Edit", new {id = item.VehicleID}) |
+            @Html.ActionLink("Delete", "Delete", new {id = item.VehicleID})
         </td>
     </tr>
 }
 
 </table>
+
+@*when details is pased in must pass in the model aswell.*@
