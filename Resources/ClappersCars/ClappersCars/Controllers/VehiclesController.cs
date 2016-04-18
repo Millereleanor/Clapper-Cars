@@ -22,17 +22,17 @@ namespace ClappersCars.Controllers
             return View(db.Vehicles.ToList());
         }
 
-        // GET: Vehicles/Details/5
-        [AllowAnonymous]
-        public PartialViewResult Details(int id)//TODO:render partial view post
-        {
+        //// GET: Vehicles/Details/5
+        //[AllowAnonymous]
+        //public PartialViewResult Details(int id)//TODO:render partial view post
+        //{
            
-            Vehicle vehicle = db.Vehicles.Find(id);
+        //    Vehicle vehicle = db.Vehicles.Find(id);
            
-            //return PartialView();
-        }
+        //    //return PartialView();
+        //}
 
-        // GET: Vehicles/Create
+        //// GET: Vehicles/Create
         public ActionResult Create()
         {
             return View();
