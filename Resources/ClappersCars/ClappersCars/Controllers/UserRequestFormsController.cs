@@ -24,7 +24,7 @@ namespace ClappersCars.Controllers
 
         // GET: UserRequestForms/Details/5
         [Authorize]
-        public ActionResult Details(int? id)
+        public ActionResult Details(int? id)//todo:elle conect to partial view
         {
             if (id == null)
             {

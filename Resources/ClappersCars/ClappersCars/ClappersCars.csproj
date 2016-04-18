@@ -210,6 +210,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -271,11 +272,11 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Vehicles\Create.cshtml" />
     <Content Include="Views\Vehicles\Delete.cshtml" />
-    <Content Include="Views\Shared\Details.cshtml" />
+    <Content Include="Views\Shared\VehicleDetails.cshtml" />
     <Content Include="Views\Vehicles\Index.cshtml" />
     <Content Include="Views\UserRequestForms\Create.cshtml" />
     <Content Include="Views\UserRequestForms\Delete.cshtml" />
-    <Content Include="Views\UserRequestForms\Details.cshtml" />
+    <Content Include="Views\Shared\UserRequestDetails.cshtml" />
     <Content Include="Views\UserRequestForms\Edit.cshtml" />
     <Content Include="Views\UserRequestForms\Index.cshtml" />
   </ItemGroup>

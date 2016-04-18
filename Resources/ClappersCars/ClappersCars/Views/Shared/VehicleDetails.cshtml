@@ -1,6 +1,6 @@
 ﻿@model ClappersCars.Models.Vehicle
 
-<div class="modal fade" id="details-@Model.VehicleID" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="vehicledetails-@Model.VehicleID" tabindex="-1" role="dialog" aria-labelledby="VehicleDetails">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -105,8 +105,6 @@
 
 
 
-<h2>Details</h2>
-
 <p>
-    @Html.ActionLink("Return", "Index")
+    @Html.ActionLink("Return", "Index","Vehicles")
 </p>
