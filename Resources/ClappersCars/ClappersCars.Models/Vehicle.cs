@@ -11,7 +11,7 @@ namespace ClappersCars.Models
         public string Model { get; set; }
         public int Year { get; set; }
         public decimal Mileage { get; set; }
-        public int AdTitle { get; set; }
+        public AdTitle AdTitle { get; set; }
         public string Description { get; set; }
         public int Price { get; set; }
         public string UrlOfPicture { get; set; }

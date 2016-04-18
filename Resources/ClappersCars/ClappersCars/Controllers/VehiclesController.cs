@@ -52,33 +52,33 @@ namespace ClappersCars.Controllers
             return View(vehicle);
         }
 
-        // GET: Vehicles/Edit/5
-        public ActionResult Edit(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Vehicle vehicle = db.Vehicles.Find(id);
-            if (vehicle == null)
-            {
-                return HttpNotFound();
-            }
-            return View(vehicle);
-        }
+        //// GET: Vehicles/Edit/5
+        //public ActionResult Edit(int? id)
+        //{
+        //    if (id == null)
+        //    {
+        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+        //    }
+        //    Vehicle vehicle = db.Vehicles.Find(id);
+        //    if (vehicle == null)
+        //    {
+        //        return HttpNotFound();
+        //    }
+        //    return View(vehicle);
+        //}
 
-        // POST: Vehicles/Edit/5
-        [HttpPost]
-        public ActionResult Edit(Vehicle vehicle)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Entry(vehicle).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(vehicle);
-        }
+        //// POST: Vehicles/Edit/5
+        //[HttpPost]
+        //public ActionResult Edit(Vehicle vehicle)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        db.Entry(vehicle).State = EntityState.Modified;
+        //        db.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(vehicle);
+        //}
 
         // GET: Vehicles/Delete/5
         public ActionResult Delete(int? id)
