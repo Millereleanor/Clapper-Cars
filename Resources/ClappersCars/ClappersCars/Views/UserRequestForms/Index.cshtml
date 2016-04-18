@@ -82,9 +82,13 @@
                 @Html.DisplayFor(modelItem => item.StatusOfRequest)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.UserRequestFormID }) |
-                @Html.ActionLink("Details", "Details", new { id = item.UserRequestFormID }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.UserRequestFormID })
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#userrequestdetails-@item.UserRequestFormID">
+                    Details
+                </button>
+                @Html.Partial("UserRequestDetails", item)
+
+                @Html.ActionLink("Edit", "Edit", new {id = item.UserRequestFormID}) |
+                @Html.ActionLink("Delete", "Delete", new {id = item.UserRequestFormID})
 
             </td>
         </tr>

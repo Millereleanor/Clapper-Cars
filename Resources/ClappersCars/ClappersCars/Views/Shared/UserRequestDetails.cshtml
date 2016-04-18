@@ -1,16 +1,17 @@
 ﻿@using ClappersCars.Models
 @model ClappersCars.Models.UserRequestForm
 
+
 <div class="modal fade" id="userrequestdetails-@Model.UserRequestFormID" tabindex="-1" role="dialog" aria-labelledby="userrequestDetails">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                <h4 class="modal-title" id="myModalLabel">User Request Details</h4>
             </div>
             <div class="modal-body">
                 <div>
-                    <h4>User Request Details</h4>
+                    
                     <hr />
                     <dl class="dl-horizontal">
                         <dt>
@@ -105,9 +106,11 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                @Html.ActionLink("Request", "Edit", "UserRequestForms", new { id = Model.VehicleID }, new { @class = "btn btn-default" })
-               
+             
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                   @Html.ActionLink("Request Edit", "Edit", "UserRequestForms", new {id = Model.VehicleID}, new {@class = "btn btn-default"})
+          
+
             </div>
         </div>
     </div>
