@@ -79,13 +79,20 @@
                             @Html.ActionLink("Delete", "Delete", new { id = item.VehicleID }) |
                             @Html.ActionLink("Details", "Details", new { id = item.VehicleID })*@
 
-                        <a class="btn btn-sm glyphicon glyphicon-info-sign" title="Details" href="@Url.Action("Details", new {id = item.VehicleID})"></a>
-                        <a class="btn btn-sm glyphicon glyphicon-exclamation-sign disabled" title="Edit" href="@Url.Action("Edit", new {id = item.VehicleID})"></a>
+                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#vehicledetails-@item.VehicleID">
+                            <i class=" glyphicon glyphicon-info-sign"></i>
+                        </button>
+                        @Html.Partial("VehicleDetails", item)
+                      
                         <a class="btn btn-sm glyphicon glyphicon-remove-sign" title="Delete" href="@Url.Action("Delete", new {id = item.VehicleID})"></a>
                     }
                     else
                     {
-                        <a class="btn glyphicon glyphicon-info-sign" title="Details" href="@Url.Action("Details", new {id = item.VehicleID})"></a>
+                        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#vehicledetails-@item.VehicleID">
+                            <i class=" glyphicon glyphicon-info-sign"></i>
+                        </button>
+                        @Html.Partial("VehicleDetails", item)
+
                                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#CreateUserRequestForm-@item.VehicleID">
                             New Request
