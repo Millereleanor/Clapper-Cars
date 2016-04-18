@@ -1,14 +1,12 @@
-﻿@model IEnumerable<ClappersCars.Models.UserRequestForm>
+﻿@using ClappersCars.Models
+@model IEnumerable<ClappersCars.Models.UserRequestForm>
 
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>User Requests</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 <table class="table">
     <tr>
         <th>
@@ -69,10 +67,10 @@
                 @Html.DisplayFor(modelItem => item.PreferredContactMethod)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TimeframeToPurchaseStart)
+                @item.TimeframeToPurchaseStart.ToShortDateString()
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.TimeframeToPurchaseEnd)
+                @item.TimeframeToPurchaseEnd.ToShortDateString()
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.AdditionalInformation)
@@ -87,6 +85,7 @@
                 @Html.ActionLink("Edit", "Edit", new { id = item.UserRequestFormID }) |
                 @Html.ActionLink("Details", "Details", new { id = item.UserRequestFormID }) |
                 @Html.ActionLink("Delete", "Delete", new { id = item.UserRequestFormID })
+
             </td>
         </tr>
     }

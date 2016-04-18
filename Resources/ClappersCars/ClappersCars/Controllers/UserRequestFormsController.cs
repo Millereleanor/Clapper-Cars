@@ -53,7 +53,7 @@ namespace ClappersCars.Controllers
             {
                 db.UserRequestForms.Add(userRequestForm);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Vehicles");
             }
 
             ViewBag.VehicleID = new SelectList(db.Vehicles, "VehicleID", "Make", userRequestForm.VehicleID);
