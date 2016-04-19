@@ -83,13 +83,11 @@
             </td>
             <td>
                 <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#userrequestdetails-@item.UserRequestFormID">
-                    Details
+                    <i class=" glyphicon glyphicon-info-sign"></i>
                 </button>
                 @Html.Partial("UserRequestDetails", item)
-
-                @Html.ActionLink("Edit", "Edit", new {id = item.UserRequestFormID}) |
-                @Html.ActionLink("Delete", "Delete", new {id = item.UserRequestFormID})
-
+                <a class="btn btn-sm glyphicon glyphicon-edit" title="Edit" href="@Url.Action("Edit", new {id = item.UserRequestFormID})"></a>
+                <a class="btn btn-sm glyphicon glyphicon-remove-sign" title="Delete" href="@Url.Action("Delete", new {id = item.UserRequestFormID})"></a>
             </td>
         </tr>
     }
