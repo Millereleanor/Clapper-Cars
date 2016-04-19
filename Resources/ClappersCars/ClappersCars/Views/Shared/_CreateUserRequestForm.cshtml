@@ -85,20 +85,20 @@
                         @Html.Hidden("StatusOfRequest", ResponseStatus.New)
                         <div class="form-group">
                             <div class="col-md-offset-3 col-md-9">
+                            </div>
+                            <div class="modal-footer">
                                 <input type="submit" value="Create" class="btn btn-default" />
+                                
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
                 }
-
-
                 @section Scripts {
                     @Scripts.Render("~/bundles/jqueryval")
                 }
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
+            
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
