@@ -54,12 +54,26 @@
     <Compile Include="Migrations\201604152253398_initDB.Designer.cs">
       <DependentUpon>201604152253398_initDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201604190008303_ChangeAdTitleToEnum.cs" />
+    <Compile Include="Migrations\201604190008303_ChangeAdTitleToEnum.Designer.cs">
+      <DependentUpon>201604190008303_ChangeAdTitleToEnum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604190020583_AddDataAnnotations.cs" />
+    <Compile Include="Migrations\201604190020583_AddDataAnnotations.Designer.cs">
+      <DependentUpon>201604190020583_AddDataAnnotations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201604152253398_initDB.resx">
       <DependentUpon>201604152253398_initDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604190008303_ChangeAdTitleToEnum.resx">
+      <DependentUpon>201604190008303_ChangeAdTitleToEnum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604190020583_AddDataAnnotations.resx">
+      <DependentUpon>201604190020583_AddDataAnnotations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

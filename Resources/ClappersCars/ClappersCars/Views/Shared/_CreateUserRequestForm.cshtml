@@ -61,7 +61,7 @@
                         <div class="form-group">
                             @Html.LabelFor(model => model.TimeframeToPurchaseStart, htmlAttributes: new { @class = "control-label col-md-2" })
                             <div class="col-md-10">
-                                @Html.EditorFor(model => model.TimeframeToPurchaseStart.Date, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.EditorFor(model => model.TimeframeToPurchaseStart, new { htmlAttributes = new { @class = "form-control" } })
                                 @Html.ValidationMessageFor(model => model.TimeframeToPurchaseStart.Date, "", new { @class = "text-danger" })
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                         <div class="form-group">
                             @Html.LabelFor(model => model.TimeframeToPurchaseEnd, htmlAttributes: new { @class = "control-label col-md-2" })
                             <div class="col-md-10">
-                                @Html.EditorFor(model => model.TimeframeToPurchaseEnd.Date, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.EditorFor(model => model.TimeframeToPurchaseEnd, new { htmlAttributes = new { @class = "form-control" } })
                                 @Html.ValidationMessageFor(model => model.TimeframeToPurchaseEnd.Date, "", new { @class = "text-danger" })
                             </div>
                         </div>

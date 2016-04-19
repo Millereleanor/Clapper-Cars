@@ -1,3 +1,5 @@
+using ClappersCars.Models;
+
 namespace ClappersCars.Migrations
 {
     using System;
@@ -15,8 +17,10 @@ namespace ClappersCars.Migrations
         protected override void Seed(ClappersCars.Models.ClappersCarsContext context)
         {
             //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
+            //context.Vehicles.AddOrUpdate(v => new { v.Make,v.Model,v.Year}, new Vehicle
+            //{
+            //};
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data. E.g.
             //
             //    context.People.AddOrUpdate(
